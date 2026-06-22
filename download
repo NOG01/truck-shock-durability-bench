@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Data files (large)
+data/*.csv
+!data/sample_data.csv
+
+# Results (generated)
+results/*.png
+results/*.pdf
+results/*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Arduino build
+arduino/build/
+arduino/*.elf
+arduino/*.hex
