@@ -1,0 +1,22 @@
+============================================================
+  FAULT DETECTION REPORT
+  Truck Shock Absorber Durability Test Bench
+============================================================
+  CSV File        : data/sample_data.csv
+  Total Rows      : 70,000
+  Total Cycles    : 9,999
+
+── Baseline ──────────────────────────────────────────
+  Force           : 49.74 kg
+  RMS Az          : 0.6971 g
+  Peak Freqs (Hz) : [np.float64(3.0)]
+
+── Fault Results ─────────────────────────────────────
+  Force Loss > 20%          ✔  OK
+  RMS Increase > 30%        ⚠  FAULT DETECTED  (cycle 8067, t=2823450 ms)
+  New FFT Peaks             ⚠  FAULT DETECTED
+    New frequencies : [np.float64(7.0)] Hz
+
+── Overall ───────────────────────────────────────────
+  Any Fault Detected        ⚠  FAULT DETECTED  (cycle 8067, t=2823450 ms)
+============================================================
