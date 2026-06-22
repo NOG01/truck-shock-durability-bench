@@ -1,10 +1,5 @@
 # Truck Shock Absorber Durability Test Bench
 
-![Arduino](https://img.shields.io/badge/Arduino-Uno-blue)
-![Python](https://img.shields.io/badge/Python-3.10+-green)
-![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
-![Status](https://img.shields.io/badge/Status-Prototype-orange)
-
 ## Overview
 
 This project presents a low-cost durability test bench for truck shock absorbers using Arduino Uno, MPU6050, HX711 load cell amplifier, SD card logging and Python-based vibration analysis.
