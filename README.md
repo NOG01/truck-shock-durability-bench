@@ -340,7 +340,7 @@ truck-shock-durability-bench/
 Clone repository:
 
 ```bash
-git clone https://github.com/NOG01/truck-shock-durability-bench.git
+git clone https://github.com/nog01/truck-shock-durability-bench.git
 ```
 
 Install dependencies:
